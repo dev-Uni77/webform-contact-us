@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(230, 247, 247);
+    /* margin: 0.8rem; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color:rgb(78, 74, 74);
+    margin-bottom: 2rem;
+}
+
+form {
+    width: 40rem;
+    margin: auto;
+    background-color: rgb(226, 236, 247);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0, 0.2);
+}
+
+
+
+
+
+h2{
+    /* text-align: center; */
+    color:rgb(78, 74, 74);
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 1rem;
+
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+label {
+    margin: 1rem 0 0.5rem 0;
+    display:block;
+    color:rgb(51, 88, 128);
+    font-weight: bold;
+    margin: 0.5re 0;
+}
+
+input,textarea,select {
+    font:inherit;
+    padding: 0.5rem;
+    border: 1px solid rgb(184,184,184);
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* margin-bottom: 1rem;
+    color: rgb(82, 86, 90) */
+
+}
+
+
+input:focus,textarea:focus {
+    
+    background-color: #cfd3f0;
+
+}
+
+
+
+textarea {
+    resize: none;
+}
+
+.inline-control{
+    display: flex;
+    /* justify-content:left; */
+}
+
+.inline-control input {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.inline-control label {
+    margin:0;
+    margin-left: 0.5rem;
+
+}
+
+button {
+
+    font: inherit;
+    border-color: 1px solid rgb(59, 60, 119);
+
+    display: block;
+    background-color:rgb(241, 235, 235) ;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form-actions {
+    /* text-align: right; */
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.btn-filled {
+    background-color: rgb(51, 67, 100);
+    color: white;
+
+}
+
+.btn-empty {
+    background-color: transparent;
+    color: rgb(51, 67, 100);
+
+}
+
+.btn-filled:hover {
+    background-color: rgb(69, 89, 129);
+   border-color: rgb(69, 89, 129);
+}
+
+
+.btn-empty:hover {
+    background-color: rgb(208, 215, 230);
+    
+}
+
+
+
+
